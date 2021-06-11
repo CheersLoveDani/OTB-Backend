@@ -1,0 +1,12 @@
+[
+{
+  "model": "heroes.hero",
+  "pk": 1,
+  "fields": {
+    "name": "Genji",
+    "img_large": "https://static.wikia.nocookie.net/overwatch_gamepedia/images/6/6d/Genji-ow2-portrait.png/revision/latest/scale-to-width-down/350?cb=20191104043734",
+    "img_banner": "https://cdn.mmos.com/wp-content/uploads/2016/05/overwatch-genji.jpg",
+    "role": "DPS"
+  }
+}
+]
