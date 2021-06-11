@@ -1,0 +1,15 @@
+
+
+GET http://localhost:8000/api/heroes/1/
+
+###
+
+GET http://localhost:8000/api/heroes/
+
+###
+
+GET http://localhost:8000/api/teams/1/
+
+###
+
+GET http://localhost:8000/api/teams/
