@@ -4,9 +4,319 @@
   "pk": 1,
   "fields": {
     "name": "Genji",
-    "img_large": "https://static.wikia.nocookie.net/overwatch_gamepedia/images/6/6d/Genji-ow2-portrait.png/revision/latest/scale-to-width-down/350?cb=20191104043734",
-    "img_banner": "https://cdn.mmos.com/wp-content/uploads/2016/05/overwatch-genji.jpg",
+    "img_large": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513285/OTB/genji-img-large_v4sllv.png",
+    "img_banner": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513282/OTB/genji-img-banner_qujunh.png",
     "role": "DPS"
+  }
+},
+{
+  "model": "heroes.hero",
+  "pk": 2,
+  "fields": {
+    "name": "Zenyatta",
+    "img_large": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513311/OTB/zenyatta-img-large_rbnx5b.png",
+    "img_banner": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513308/OTB/zenyatta-img-banner_nsmmpr.png",
+    "role": "SUPPORT"
+  }
+},
+{
+  "model": "heroes.hero",
+  "pk": 3,
+  "fields": {
+    "name": "Zarya",
+    "img_large": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513311/OTB/zarya-img-large_cwgvvd.png",
+    "img_banner": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513305/OTB/zarya-img-banner_bo379x.png",
+    "role": "TANK"
+  }
+},
+{
+  "model": "heroes.hero",
+  "pk": 4,
+  "fields": {
+    "name": "Winston",
+    "img_large": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513310/OTB/winston-img-large_l5nbtz.png",
+    "img_banner": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513306/OTB/winston-img-banner_oukcad.png",
+    "role": "TANK"
+  }
+},
+{
+  "model": "heroes.hero",
+  "pk": 5,
+  "fields": {
+    "name": "WidowMaker",
+    "img_large": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513309/OTB/widow-img-large_fpphjv.png",
+    "img_banner": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513304/OTB/widow-img-banner_ddvk2w.png",
+    "role": "DPS"
+  }
+},
+{
+  "model": "heroes.hero",
+  "pk": 6,
+  "fields": {
+    "name": "WreckingBall",
+    "img_large": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513309/OTB/wreckingball-img-large_puhaes.png",
+    "img_banner": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513304/OTB/wreckingball-img-banner_rjxhsr.png",
+    "role": "TANK"
+  }
+},
+{
+  "model": "heroes.hero",
+  "pk": 7,
+  "fields": {
+    "name": "Torbjorn",
+    "img_large": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513307/OTB/torbjorn-img-large_fl1wa4.png",
+    "img_banner": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513302/OTB/torbjorn-img-banner_tbcnwa.png",
+    "role": "DPS"
+  }
+},
+{
+  "model": "heroes.hero",
+  "pk": 8,
+  "fields": {
+    "name": "Symmetra",
+    "img_large": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513307/OTB/symmetra-img-large_jzoa60.png",
+    "img_banner": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513301/OTB/symmetra-img-banner_zu1zw1.png",
+    "role": "DPS"
+  }
+},
+{
+  "model": "heroes.hero",
+  "pk": 9,
+  "fields": {
+    "name": "Tracer",
+    "img_large": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513305/OTB/tracer-img-large_huzxwx.png",
+    "img_banner": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513303/OTB/tracer-img-banner_trvfoo.png",
+    "role": "DPS"
+  }
+},
+{
+  "model": "heroes.hero",
+  "pk": 10,
+  "fields": {
+    "name": "Soldier:76",
+    "img_large": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513302/OTB/soldier-img-large_f9nx3y.png",
+    "img_banner": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513298/OTB/soldier-img-banner_kokjs7.png",
+    "role": "DPS"
+  }
+},
+{
+  "model": "heroes.hero",
+  "pk": 11,
+  "fields": {
+    "name": "Roadhog",
+    "img_large": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513302/OTB/roadhog-img-large_ffji8x.png",
+    "img_banner": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513298/OTB/roadhog-img-banner_hbm7r8.png",
+    "role": "TANK"
+  }
+},
+{
+  "model": "heroes.hero",
+  "pk": 12,
+  "fields": {
+    "name": "Sombra",
+    "img_large": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513301/OTB/sombra-img-large_hhvitw.png",
+    "img_banner": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513300/OTB/sombra-img-banner_a6nahr.png",
+    "role": "DPS"
+  }
+},
+{
+  "model": "heroes.hero",
+  "pk": 13,
+  "fields": {
+    "name": "Sigma",
+    "img_large": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513300/OTB/sigma-img-large_mswvq5.png",
+    "img_banner": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513297/OTB/sigma-img-banner_impfec.png",
+    "role": "TANK"
+  }
+},
+{
+  "model": "heroes.hero",
+  "pk": 14,
+  "fields": {
+    "name": "Reinhardt",
+    "img_large": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513299/OTB/reinhardt-img-large_oxcxzp.png",
+    "img_banner": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513296/OTB/reinhardt-img-banner_ofu79i.png",
+    "role": "TANK"
+  }
+},
+{
+  "model": "heroes.hero",
+  "pk": 15,
+  "fields": {
+    "name": "Pharah",
+    "img_large": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513297/OTB/pharah-img-large_lasmof.png",
+    "img_banner": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513295/OTB/pharah-img-banner_vld7in.png",
+    "role": "DPS"
+  }
+},
+{
+  "model": "heroes.hero",
+  "pk": 16,
+  "fields": {
+    "name": "Reaper",
+    "img_large": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513297/OTB/reaper-img-large_gst1ka.png",
+    "img_banner": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513294/OTB/reaper-img-banner_sb9v29.png",
+    "role": "DPS"
+  }
+},
+{
+  "model": "heroes.hero",
+  "pk": 17,
+  "fields": {
+    "name": "Orisa",
+    "img_large": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513295/OTB/orisa-img-large_gyrt7q.png",
+    "img_banner": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513293/OTB/orisa-img-banner_wiakkf.png",
+    "role": "TANK"
+  }
+},
+{
+  "model": "heroes.hero",
+  "pk": 18,
+  "fields": {
+    "name": "Moira",
+    "img_large": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513293/OTB/moira-img-large_ovj7w7.png",
+    "img_banner": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513290/OTB/moira-img-banner_o2embn.png",
+    "role": "SUPPORT"
+  }
+},
+{
+  "model": "heroes.hero",
+  "pk": 19,
+  "fields": {
+    "name": "Mccree",
+    "img_large": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513293/OTB/mccree-img-large_ab7vpb.png",
+    "img_banner": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513287/OTB/mccree-img-banner_ugbc37.png",
+    "role": "DPS"
+  }
+},
+{
+  "model": "heroes.hero",
+  "pk": 20,
+  "fields": {
+    "name": "Mercy",
+    "img_large": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513292/OTB/mercy-img-large_fbdszq.png",
+    "img_banner": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513291/OTB/mercy-img-banner_uv7bcx.png",
+    "role": "SUPPORT"
+  }
+},
+{
+  "model": "heroes.hero",
+  "pk": 21,
+  "fields": {
+    "name": "Lucio",
+    "img_large": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513291/OTB/lucio-img-large_xvg72b.png",
+    "img_banner": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513285/OTB/lucio-img-banner_ib9dru.png",
+    "role": "SUPPORT"
+  }
+},
+{
+  "model": "heroes.hero",
+  "pk": 22,
+  "fields": {
+    "name": "Mei",
+    "img_large": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513291/OTB/mei-img-large_kyv9ti.png",
+    "img_banner": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513289/OTB/mei-img-banner_o3wq8r.png",
+    "role": "DPS"
+  }
+},
+{
+  "model": "heroes.hero",
+  "pk": 23,
+  "fields": {
+    "name": "Junkrat",
+    "img_large": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513290/OTB/junkrat-img-large_gyxzcr.png",
+    "img_banner": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513285/OTB/junkrat-img-banner_hauiuh.png",
+    "role": "DPS"
+  }
+},
+{
+  "model": "heroes.hero",
+  "pk": 24,
+  "fields": {
+    "name": "D.va",
+    "img_large": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513287/OTB/dva-img-large_mmqeiz.png",
+    "img_banner": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513283/OTB/dva-img-banner_xmjsdv.png",
+    "role": "TANK"
+  }
+},
+{
+  "model": "heroes.hero",
+  "pk": 25,
+  "fields": {
+    "name": "Hanzo",
+    "img_large": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513287/OTB/hanzo-img-large_lgq6rx.png",
+    "img_banner": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513283/OTB/hanzo-img-banner_auhiaw.png",
+    "role": "DPS"
+  }
+},
+{
+  "model": "heroes.hero",
+  "pk": 26,
+  "fields": {
+    "name": "Echo",
+    "img_large": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513284/OTB/echo-img-large_oollc9.png",
+    "img_banner": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513280/OTB/echo-img-banner_tlkdmi.png",
+    "role": "DPS"
+  }
+},
+{
+  "model": "heroes.hero",
+  "pk": 27,
+  "fields": {
+    "name": "Brigitte",
+    "img_large": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513283/OTB/brigitte-img-large_suet8e.png",
+    "img_banner": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513276/OTB/brigitte-img-banner_ib8eav.png",
+    "role": "SUPPORT"
+  }
+},
+{
+  "model": "heroes.hero",
+  "pk": 28,
+  "fields": {
+    "name": "Doomfist",
+    "img_large": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513282/OTB/doomfist-img-large_p9ocqu.png",
+    "img_banner": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513280/OTB/doomfist-img-banner_it3oe7.png",
+    "role": "DPS"
+  }
+},
+{
+  "model": "heroes.hero",
+  "pk": 29,
+  "fields": {
+    "name": "Ashe",
+    "img_large": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513281/OTB/ashe-img-large_ha7v0f.png",
+    "img_banner": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513275/OTB/ashe-img-banner_hmzcnh.png",
+    "role": "DPS"
+  }
+},
+{
+  "model": "heroes.hero",
+  "pk": 30,
+  "fields": {
+    "name": "Bastion",
+    "img_large": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513280/OTB/bastion-img-large_jp7ozh.png",
+    "img_banner": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513278/OTB/bastion-img-banner_kzjrjw.png",
+    "role": "DPS"
+  }
+},
+{
+  "model": "heroes.hero",
+  "pk": 31,
+  "fields": {
+    "name": "Baptiste",
+    "img_large": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513279/OTB/baptiste-img-large_fkhlpv.png",
+    "img_banner": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513276/OTB/baptiste-img-banner_p5ua2x.png",
+    "role": "SUPPORT"
+  }
+},
+{
+  "model": "heroes.hero",
+  "pk": 32,
+  "fields": {
+    "name": "Ana",
+    "img_large": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513278/OTB/ana-img-large_xaxtz9.png",
+    "img_banner": "https://res.cloudinary.com/sirdancloud/image/upload/v1623513275/OTB/ana-img-banner_j9mfzc.png",
+    "role": "SUPPORT"
   }
 }
 ]

@@ -22,3 +22,4 @@ class TeamDetailView(APIView):
             return Response(serialized_team.data, status=status.HTTP_200_OK)
         except team.DoesNotExist:
             raise NotFound()
+            
