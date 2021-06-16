@@ -1,4 +1,4 @@
-
+@token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMsImV4cCI6MTYyNDQ0NDM1N30.HfX60rW3h-6akkuTwokEko8UKhHjbnBwytzf8ESRm5E
 
 GET http://localhost:8000/api/heroes/1/
 
@@ -8,8 +8,91 @@ GET http://localhost:8000/api/heroes/
 
 ###
 
-GET http://localhost:8000/api/teams/1/
+GET http://localhost:8000/api/teams/2/
+
+###
+
+PUT http://localhost:8000/api/teams/5/
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "name": "OLD Wave Cookies!",
+  "private": false,
+  "icon": "https://pbs.twimg.com/profile_images/1381527007910039554/ql2bDaoo_400x400.jpg",
+  "owner": 2,
+  "dps1": 7,
+  "dps2": 6
+}
+
+###
+
+DELETE http://localhost:8000/api/teams/4/
+Authorization: Bearer {{token}}
 
 ###
 
 GET http://localhost:8000/api/teams/
+
+###
+
+POST  http://localhost:8000/api/teams/
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+
+{
+  "name": "new team",
+  "private": true,
+  "icon": "https://pbs.twimg.com/profile_images/1381527007910039554/ql2bDaoo_400x400.jpg",
+  "dps1": 3,
+  "dps2": 5,
+  "tank1": 4,
+  "tank2": 6,
+  "support1": 7
+}
+
+
+
+###
+
+POST http://localhost:8000/api/auth/register/
+Content-Type: application/json
+
+{
+  "username" : "ewan",
+  "email" : "ewan@email.com",
+  "battletag" : "nyx#12345",
+  "password" : "pass",
+  "passwordConfirmation" : "pass"
+}
+
+###
+
+POST http://localhost:8000/api/auth/login/
+Content-Type: application/json
+
+{
+  "email" : "jeff@email.com",
+  "password" : "pass"
+}
+
+###
+
+GET http://localhost:8000/api/auth/profile/5/
+
+###
+
+PUT http://localhost:8000/api/auth/profile/3/
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "username": "jeff",
+  "email": "jeff@email.com",
+  "battletag": "kaplanrules#0001",
+  "sr": 5000,
+  "mainrole": "TANK",
+  "password" : "pass",
+  "passwordConfirmation" : "pass"
+}

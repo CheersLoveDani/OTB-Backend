@@ -9,56 +9,58 @@ class Team(models.Model):
         'jwt_auth.User',
         related_name='owner_users',
         on_delete=models.CASCADE,
+        blank=True,
+        null=True
     )
 
-    dps1 = models.ForeignKey(
+    dps_1 = models.ForeignKey(
         'jwt_auth.User',
         related_name='dps1_users',
-        on_delete=models.SET_NULL,
+        on_delete=models.CASCADE,
         blank=True,
         null=True
     )
 
-    dps2 = models.ForeignKey(
+    dps_2 = models.ForeignKey(
         'jwt_auth.User',
         related_name='dps2_users',
-        on_delete=models.SET_NULL,
+        on_delete=models.CASCADE,
         blank=True,
         null=True
     )
 
-    tank1 = models.ForeignKey(
+    tank_1 = models.ForeignKey(
         'jwt_auth.User',
         related_name='tank1_users',
-        on_delete=models.SET_NULL,
+        on_delete=models.CASCADE,
         blank=True,
         null=True
     )
 
-    tank2 = models.ForeignKey(
+    tank_2 = models.ForeignKey(
         'jwt_auth.User',
         related_name='tank2_users',
-        on_delete=models.SET_NULL,
+        on_delete=models.CASCADE,
         blank=True,
         null=True
     )
 
-    support1 = models.ForeignKey(
+    support_1 = models.ForeignKey(
         'jwt_auth.User',
         related_name='support1_users',
-        on_delete=models.SET_NULL,
+        on_delete=models.CASCADE,
         blank=True,
         null=True
     )
 
-    support2 = models.ForeignKey(
+    support_2 = models.ForeignKey(
         'jwt_auth.User',
         related_name='support2_users',
-        on_delete=models.SET_NULL,
+        on_delete=models.CASCADE,
         blank=True,
         null=True
     )
 
     def __str__(self):
-        return self.name
+        return f'{self.name}'
         

@@ -19,7 +19,6 @@ class User(AbstractUser):
         (TANK, 'tank'),
         (SUPPORT, 'support')
     ]
-    
     mainrole = models.CharField(
         max_length=10,
         choices=ROLE_CHOICES,
