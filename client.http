@@ -92,7 +92,5 @@ Authorization: Bearer {{token}}
   "email": "jeff@email.com",
   "battletag": "kaplanrules#0001",
   "sr": 5000,
-  "mainrole": "TANK",
-  "password" : "pass",
-  "passwordConfirmation" : "pass"
+  "mainrole": "TANK"
 }

@@ -7,7 +7,7 @@ from django.contrib.auth import get_user_model
 from django.conf import settings
 import jwt
 
-from .serializers import UserSerializer
+from .serializers import UserSerializer, EditUserSerializer
 from .populated import PopulatedUserSerializer
 
 User = get_user_model()
@@ -68,7 +68,7 @@ class ProfileView(APIView):
         user_to_update = self.get_user(pk=pk)
         if user_to_update.id != request.user.id:
             raise PermissionDenied()
-        updated_user = UserSerializer(user_to_update, data=request.data)
+        updated_user = EditUserSerializer(user_to_update, data=request.data)
         if updated_user.is_valid():
             updated_user.save()
             return Response(updated_user.data, status=status.HTTP_202_ACCEPTED)
