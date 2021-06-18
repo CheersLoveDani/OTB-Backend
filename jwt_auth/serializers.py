@@ -43,5 +43,14 @@ class EditUserSerializer(serializers.ModelSerializer):
             'email',
             'battletag',
             'sr',
-            'mainrole'
+            'mainrole',
+            'dps_1',
+            'dps_2',
+            'dps_3',
+            'tank_1',
+            'tank_2',
+            'tank_3',
+            'support_1',
+            'support_2',
+            'support_3',
             )

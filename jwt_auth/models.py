@@ -25,7 +25,7 @@ class User(AbstractUser):
         default=DPS
     )
 
-    dps1 = models.ForeignKey(
+    dps_1 = models.ForeignKey(
         'heroes.Hero',
         related_name='dps1_heroes',
         blank=True,
@@ -33,7 +33,7 @@ class User(AbstractUser):
         help_text='Must be unique, must be dps',
         on_delete=models.SET_NULL
     )
-    dps2 = models.ForeignKey(
+    dps_2 = models.ForeignKey(
         'heroes.Hero',
         related_name='dps2_heroes',
         blank=True,
@@ -41,7 +41,7 @@ class User(AbstractUser):
         help_text='Must be unique, must be dps',
         on_delete=models.SET_NULL
     )
-    dps3 = models.ForeignKey(
+    dps_3 = models.ForeignKey(
         'heroes.Hero',
         related_name='dps3_heroes',
         blank=True,
@@ -50,7 +50,7 @@ class User(AbstractUser):
         on_delete=models.SET_NULL
     )
 
-    tank1 = models.ForeignKey(
+    tank_1 = models.ForeignKey(
         'heroes.Hero',
         related_name='tank1_heroes',
         blank=True,
@@ -58,7 +58,7 @@ class User(AbstractUser):
         help_text='Must be unique, must be tank',
         on_delete=models.SET_NULL
     )
-    tank2 = models.ForeignKey(
+    tank_2 = models.ForeignKey(
         'heroes.Hero',
         related_name='tank2_heroes',
         blank=True,
@@ -66,7 +66,7 @@ class User(AbstractUser):
         help_text='Must be unique, must be tank',
         on_delete=models.SET_NULL
     )
-    tank3 = models.ForeignKey(
+    tank_3 = models.ForeignKey(
         'heroes.Hero',
         related_name='tank3_heroes',
         blank=True,
@@ -75,7 +75,7 @@ class User(AbstractUser):
         on_delete=models.SET_NULL
     )
 
-    support1 = models.ForeignKey(
+    support_1 = models.ForeignKey(
         'heroes.Hero',
         related_name='support1_heroes',
         blank=True,
@@ -83,7 +83,7 @@ class User(AbstractUser):
         help_text='Must be unique, must be support',
         on_delete=models.SET_NULL
     )
-    support2 = models.ForeignKey(
+    support_2 = models.ForeignKey(
         'heroes.Hero',
         related_name='support2_heroes',
         blank=True,
@@ -91,7 +91,7 @@ class User(AbstractUser):
         help_text='Must be unique, must be support',
         on_delete=models.SET_NULL
     )
-    support3 = models.ForeignKey(
+    support_3 = models.ForeignKey(
         'heroes.Hero',
         related_name='support3_heroes',
         blank=True,

@@ -7,17 +7,17 @@ from heroes.serializers import HeroSerializer
 User = get_user_model()
 
 class PopulatedUserSerializer(ModelSerializer):
-    dps1 = HeroSerializer()
-    dps2 = HeroSerializer()
-    dps3 = HeroSerializer()
+    dps_1 = HeroSerializer()
+    dps_2 = HeroSerializer()
+    dps_3 = HeroSerializer()
     
-    tank1 = HeroSerializer()
-    tank2 = HeroSerializer()
-    tank3 = HeroSerializer()
+    tank_1 = HeroSerializer()
+    tank_2 = HeroSerializer()
+    tank_3 = HeroSerializer()
 
-    support1 = HeroSerializer()
-    support2 = HeroSerializer()
-    support3 = HeroSerializer()
+    support_1 = HeroSerializer()
+    support_2 = HeroSerializer()
+    support_3 = HeroSerializer()
 
     class Meta:
         model = User
