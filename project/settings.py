@@ -9,6 +9,7 @@ https://docs.djangoproject.com/en/3.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
+import django_on_heroku # put this at the top of the file
 
 import os
 from pathlib import Path
@@ -158,3 +159,5 @@ REST_FRAMEWORK = {
 }
 
 AUTH_USER_MODEL = 'jwt_auth.User'
+
+django_on_heroku.settings(locals()) # put this last
