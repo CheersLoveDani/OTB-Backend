@@ -79,7 +79,7 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:8000/api/auth/profile/5/
+GET http://localhost:8000/api/auth/profile/4/
 
 ###
 
@@ -93,5 +93,6 @@ Authorization: Bearer {{token}}
   "battletag": "kaplanrules#0001",
   "sr": 5000,
   "mainrole": "SUPPORT",
-  "dps1": "1"
+  "dps1": "1",
+  "dps2": "6"
 }
