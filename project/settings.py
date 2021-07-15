@@ -9,13 +9,16 @@ https://docs.djangoproject.com/en/3.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
-import django_on_heroku # put this at the top of the file
+
 
 import os
 from pathlib import Path
+import django_on_heroku # put this at the top of the file
 from dotenv import load_dotenv
 import dj_database_url
 load_dotenv()
+
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -27,7 +30,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 
 if str(os.getenv('ENVIRONMENT')) == 'development':
-    SECRET_KEY = 'django-insecure-8&75wq)_z+1*cz7%)*6*06w=e=hvo)iwx$hfz^3ag0@znfyw$8' # should be whatever your original key was
+    SECRET_KEY = 'django-insecure-8&75wq)_z+1*cz7%)*6*06w=e=hvo)iwx$hfz^3ag0@znfyw$8'
 else:
     SECRET_KEY = str(os.getenv('SECRET_KEY'))
 
@@ -95,7 +98,7 @@ DATABASES = {}
 if str(os.getenv('ENVIRONMENT')) == 'development':
     DATABASES['default'] =  {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'OTBheroesdb', 
+        'NAME': 'OTBheroesdb',
         'HOST': 'localhost',
         'PORT': 5432
     }
